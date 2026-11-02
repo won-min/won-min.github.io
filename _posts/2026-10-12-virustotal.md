@@ -44,7 +44,6 @@ media_subpath: /assets/img/posts/virustotal/
 - 특정 백신 솔루션이 제출된 파일을 악성으로 탐지했는지 여부뿐만 아니라 각 엔진의 탐지 레이블(예: I-Worm.Allaple.gen) 등도 표시
 - 대부분의 URL 스캐너는 악성 사이트, 피싱 사이트, 의심스러운 사이트 등을 구분
 
-
 ## Virus Total의 기능
 
 바이러스 토탈에 접속하면 아래와 같은 페이지에서 File/Url/Search를 확인할 수 있다.
@@ -52,8 +51,7 @@ media_subpath: /assets/img/posts/virustotal/
 ![VirusTotal 메인 화면](01.png){: w="661" h="378" }
 _VirusTotal 메인 화면_
 
-**File**에서는 의심 파일을 여러 백신 엔진으로 동시 검사할 수 있다.
-
+**File**에서는 의심 파일을 여러 백신 엔진으로 동시 검사할 수 있다.<br>
 이 탭의 주요 기능은 아래와 같다.
 
 - 다중 엔진 탐지
@@ -61,8 +59,7 @@ _VirusTotal 메인 화면_
 - 샌드박스 동적 분석
 - 연관 파일·도메인·IP 제공
 
-**Url**에서는 의심 링크를 URL 스캐너와 블록리스트로 검사할 수 있다.
-
+**Url**에서는 의심 링크를 URL 스캐너와 블록리스트로 검사할 수 있다.<br>
 이 탭의 주요 기능은 아래와 같다.
 
 - 사이트 유형 판정 (피싱·악성코드 유포 등)
@@ -70,27 +67,21 @@ _VirusTotal 메인 화면_
 - IP 확인
 - HTTP 응답 헤더 제공
 
-**Search**에서는 기존 분석 기록을 조회할 수 있다.
-
+**Search**에서는 기존 분석 기록을 조회할 수 있다.<br>
 이 탭의 주요 기능은 아래와 같다.
 
 - 해시·URL로 기존 리포트 조회
 - 도메인·IP의 맥락 정보 제공(Passive DNS, Whois, 관련 파일)
 
-
 ## Virus Total의 세부적인 사용 방법
 
-**리포트란 분석 대상(파일·URL·도메인·IP)에 대해 VirusTotal이 모은 정보를 정리한 결과 화면**이다.
-
-분석 대상에 따라 File / URL / 도메인·IP 세 종류로 나뉘고, 탭 종류에는 SUMMARY / DETECTION / DETAILS / RELATIONS / BEHAVIOR / CONTENT / SUBMISSIONS / TELEMETRY / COMMUNITY가 있다.
-
+**리포트란 분석 대상(파일·URL·도메인·IP)에 대해 VirusTotal이 모은 정보를 정리한 결과 화면**이다.<br>
+분석 대상에 따라 File / URL / 도메인·IP 세 종류로 나뉘고, 탭 종류에는 SUMMARY / DETECTION / DETAILS / RELATIONS / BEHAVIOR / CONTENT / SUBMISSIONS / TELEMETRY / COMMUNITY가 있다.<br>
 이때, 많은 탭이 무료로 제공되지만 일부 탭은 유료(Enterprise) 고객 전용이다.
-
 
 ### File 리포트
 
-**요약 화면**
-
+**요약 화면**<br>
 의심되는 파일을 업로드하게되면 리포트 화면 상단에서 아래와 같은 요약화면을 볼 수 있다.
 
 ![WannaCry 샘플의 File Report 요약 화면](02.png)
@@ -123,8 +114,7 @@ _출처: VirusTotal 공식 문서_
 
 12. VT Graph
 
-**탭별 항목**
-
+**탭별 항목**<br>
 결과 요약 화면 아래에서는 탭 별 상세 내용을 볼 수 있다. 각 탭별 용도 및 표시 내용은 아래와 같다.
 
 1. DETECTION - 위협 유형 또는 위협 여부 파악
@@ -179,7 +169,6 @@ _WannaCry 샘플의 BEHAVIOR 탭_
 
 - 커뮤니티 회원의 댓글 (최신순)
 - 해당 파일·URL에 대한 투표 기록
-
 
 ### URL 리포트
 
@@ -251,7 +240,6 @@ _출처: VirusTotal 공식 문서_
 - 커뮤니티 회원의 댓글 (최신순)
 - 해당 파일·URL에 대한 투표 기록
 
-
 ### 도메인·IP 리포트
 
 도메인이나 IP를 업로드하면 아래와 같은 VirusTotal이 관측한 맥락 정보를 볼 수 있다.
@@ -281,7 +269,6 @@ _IP 주소 Report 요약 화면_
 8. Communicating files
 
 9. Files referring
-
 
 ## Virus Total을 통한 분석 방법
 
