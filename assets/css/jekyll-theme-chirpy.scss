@@ -1,0 +1,35 @@
+---
+---
+
+@use 'abstracts/variables' with (
+  $theme: '{{ site.theme_mode }}'
+);
+
+/* prettier-ignore */
+@use 'main
+{%- if jekyll.environment == 'production' -%}
+  .bundle
+{%- endif -%}
+';
+
+/* append your custom style below */
+
+/* 본문: 줄간격·문단 간격 넓히기 */
+.content {
+  line-height: 1.9;
+  word-break: keep-all; /* 한글 단어가 중간에서 끊기지 않게 */
+}
+.content p { margin-bottom: 1.25rem; }
+.content li + li { margin-top: 0.4rem; }
+
+/* 제목 위아래 여백 */
+.content h2 { margin-top: 4rem; margin-bottom: 1.5rem; }
+.content h3 { margin-top: 3rem; margin-bottom: 1.25rem; }
+
+/* 표: 가로 스크롤 대신 칸 안에서 줄바꿈 */
+.content .table-wrapper > table th,
+.content .table-wrapper > table td {
+  white-space: normal;
+  padding: 0.6rem 1rem;
+  line-height: 1.6;
+}
