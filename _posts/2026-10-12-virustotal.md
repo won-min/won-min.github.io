@@ -2,7 +2,6 @@
 title: "Virus Total"
 date: 2026-10-12 02:48:22 +0900
 categories: [보안]
-tags: [virustotal, soc, malware-analysis]
 media_subpath: /assets/img/posts/virustotal/
 ---
 
@@ -45,6 +44,7 @@ media_subpath: /assets/img/posts/virustotal/
 - 특정 백신 솔루션이 제출된 파일을 악성으로 탐지했는지 여부뿐만 아니라 각 엔진의 탐지 레이블(예: I-Worm.Allaple.gen) 등도 표시
 - 대부분의 URL 스캐너는 악성 사이트, 피싱 사이트, 의심스러운 사이트 등을 구분
 
+
 ## Virus Total의 기능
 
 바이러스 토탈에 접속하면 아래와 같은 페이지에서 File/Url/Search를 확인할 수 있다.
@@ -77,6 +77,7 @@ _VirusTotal 메인 화면_
 - 해시·URL로 기존 리포트 조회
 - 도메인·IP의 맥락 정보 제공(Passive DNS, Whois, 관련 파일)
 
+
 ## Virus Total의 세부적인 사용 방법
 
 **리포트란 분석 대상(파일·URL·도메인·IP)에 대해 VirusTotal이 모은 정보를 정리한 결과 화면**이다.
@@ -84,6 +85,7 @@ _VirusTotal 메인 화면_
 분석 대상에 따라 File / URL / 도메인·IP 세 종류로 나뉘고, 탭 종류에는 SUMMARY / DETECTION / DETAILS / RELATIONS / BEHAVIOR / CONTENT / SUBMISSIONS / TELEMETRY / COMMUNITY가 있다.
 
 이때, 많은 탭이 무료로 제공되지만 일부 탭은 유료(Enterprise) 고객 전용이다.
+
 
 ### File 리포트
 
@@ -178,6 +180,7 @@ _WannaCry 샘플의 BEHAVIOR 탭_
 - 커뮤니티 회원의 댓글 (최신순)
 - 해당 파일·URL에 대한 투표 기록
 
+
 ### URL 리포트
 
 URL을 업로드하여 사이트 유형(피싱, 악성코드 유포 등)을 판정한 결과를 볼 수 있고, 좀 더 세부적인 내용은 아래와 같다.
@@ -248,6 +251,7 @@ _출처: VirusTotal 공식 문서_
 - 커뮤니티 회원의 댓글 (최신순)
 - 해당 파일·URL에 대한 투표 기록
 
+
 ### 도메인·IP 리포트
 
 도메인이나 IP를 업로드하면 아래와 같은 VirusTotal이 관측한 맥락 정보를 볼 수 있다.
@@ -277,6 +281,7 @@ _IP 주소 Report 요약 화면_
 8. Communicating files
 
 9. Files referring
+
 
 ## Virus Total을 통한 분석 방법
 
